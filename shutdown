@@ -1,0 +1,6 @@
+#!/bin/sh
+/usr/bin/touch /home/ec2-user/shutdown-2
+
+FILENAME=$(date +%s)
+
+/usr/bin/aws s3 cp /home/ec2-user/myfile s3://erwaysoftware-apigateways3test/$FILENAME

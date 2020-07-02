@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/touch /home/ec2-user/startup
